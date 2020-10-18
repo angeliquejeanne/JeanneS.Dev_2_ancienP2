@@ -1,0 +1,196 @@
+body
+{
+	font-family: 'trebuchet MS', 'verdana';
+	margin: 0 auto;
+	max-width: 1000px;
+	border: solid 2px #FFF59D;
+	font-size: 0.9em;
+}
+h4
+{
+	font-size: 1.2em;
+	margin: 0;
+	padding: 4% 0;
+}
+main
+{
+	flex: 2;
+}
+article
+{
+	display: flex;
+	flex-direction: row;
+}
+
+/* Header */
+.blue
+{
+	color: #37474F;
+}
+.flex
+{
+	display: flex;
+}
+.vp_photo
+{
+	margin: 15% auto;
+	height: 150px;
+	width: 150px;
+	border: solid #37474F 2.5px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#head_photo
+{
+	background-color: #FFF59D;
+	flex: 1;
+}
+#photo
+{
+	width: 110%;
+	margin-top: -10px;
+	margin-left: -15px;
+}
+#name
+{
+	flex: 2;
+}
+#name h1
+{
+	padding-top: 10%;
+	margin: 0;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+#name h2
+{
+	margin-bottom: 5%;
+	margin-top: 0%;
+	font-size: 1.5em;
+}
+#border_dev
+{
+	border-bottom: solid 2px #FFF59D;
+}
+
+/* Aside */
+.bold
+{
+	font-weight: bold;
+}
+.flex_grow
+{
+	flex-grow: 3;
+}
+.aside h3
+{
+	background-color: #37474F;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	padding:  2% 0%;
+	margin-bottom: 0;
+}
+.aside p
+{
+	padding: 0 10%;
+}
+#my_contact
+{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFF59D;
+	flex: 1;
+}
+#contact h3
+{
+	margin-top: 0;
+}
+#contact a
+{
+	text-decoration: none;
+	color: black;
+}
+#contact a:hover
+{
+	color: #37474F;	
+}
+
+/* Aside - Hobbies */
+.hobbies
+{
+	text-align: center;
+	font-size: 2em;
+	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.hobbies i
+{
+	border: 2px solid rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Bloc Main */
+.border_H2
+{
+	border-bottom: 2px solid #FFF59D;
+	margin-bottom: 2%;
+}
+.px1
+{
+	padding-right: 1rem;
+}
+.px2
+{
+	font-size: 0.5em;
+	padding-right: 1rem;
+}
+main, #name
+{
+	padding: 0 5%;
+}
+#formations h3, #experience h3, #testimonials h3
+{
+	font-size: 1.3em;
+	padding-top: 3%;
+	margin-top: 0;
+	margin-bottom: 1%;
+	text-transform: uppercase;
+}
+
+/* Section formation */
+.flex_date
+{
+	flex: 1;
+}
+.align_date
+{
+	display: inline-flex;
+}
+.comp
+{
+	flex: 2;
+	margin-left: 2%;
+}
+
+/* Footer */
+.testi
+{
+	flex: 1;
+}
+#testis
+{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5%;
+}
