@@ -47,6 +47,7 @@
 		text-align: center;
 	}
 }
+
 /* Responsive 600 px */
 @media all and (max-width: 600px)
 {
@@ -60,6 +61,7 @@
 		flex-direction: column;
 	}
 }
+
 /* Responsive 468 px */
 @media all and (max-width: 468px)
 {
