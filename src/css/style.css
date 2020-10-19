@@ -21,7 +21,6 @@ article
 	display: flex;
 	flex-direction: row;
 }
-
 /* Header */
 .blue
 {
@@ -72,7 +71,6 @@ article
 {
 	border-bottom: solid 2px #FFF59D;
 }
-
 /* Aside */
 .bold
 {
@@ -115,7 +113,6 @@ article
 {
 	color: #37474F;	
 }
-
 /* Aside - Hobbies */
 .hobbies
 {
@@ -137,7 +134,6 @@ article
 	justify-content: space-around;
 	align-items: center;
 }
-
 /* Bloc Main */
 .border_H2
 {
@@ -165,7 +161,6 @@ main, #name
 	margin-bottom: 1%;
 	text-transform: uppercase;
 }
-
 /* Section formation */
 .flex_date
 {
@@ -180,7 +175,6 @@ main, #name
 	flex: 2;
 	margin-left: 2%;
 }
-
 /* Footer */
 .testi
 {
